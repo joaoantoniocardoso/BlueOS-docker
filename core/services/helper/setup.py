@@ -71,7 +71,7 @@ setup(
         "py-machineid == 0.3",
         "psutil == 5.7.2",
         "requests == 2.25.1",
-        "starlette == 0.13.6",
+        "starlette == 0.27.0",
         "uvicorn == 0.13.4",
     ],
 )
