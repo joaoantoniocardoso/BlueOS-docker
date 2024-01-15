@@ -430,7 +430,7 @@ export default Vue.extend({
     setupBoat() {
       this.vehicle_type = Vehicle.Rover
       this.vehicle_name = 'BlueBoat'
-      this.vehicle_image = '/vehicles/images/bb120.png'
+      this.vehicle_image = '/src/assets/vehicles/images/bb120.png'
       this.step_number += 1
 
       this.vehicle_configuration_pages = [
@@ -478,7 +478,7 @@ export default Vue.extend({
     setupROV() {
       this.vehicle_type = Vehicle.Sub
       this.vehicle_name = 'BlueROV'
-      this.vehicle_image = '/vehicles/images/bluerov2.png'
+      this.vehicle_image = '/src/assets/vehicles/images/bluerov2.png'
       this.step_number += 1
 
       this.vehicle_configuration_pages = [
